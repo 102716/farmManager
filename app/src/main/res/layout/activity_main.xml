@@ -46,7 +46,7 @@
                 android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="65dp"
-                android:hint="Email"
+                android:hint="Enter Email"
                 android:paddingVertical="15dp"
                 android:textColor="#000000"
                 android:inputType="textEmailAddress"
@@ -54,13 +54,13 @@
         />
 
 
-        <ImageView
-                android:layout_width="35dp"
-                android:layout_height="35dp"
-                android:layout_alignParentLeft="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginLeft="10dp"
-                android:background="@drawable/ic_email"/>
+<!--        <ImageView-->
+<!--                android:layout_width="35dp"-->
+<!--                android:layout_height="35dp"-->
+<!--                android:layout_alignParentLeft="true"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:background="@drawable/ic_email"/>-->
     </RelativeLayout>
     <RelativeLayout
             android:layout_width="match_parent"
@@ -73,14 +73,14 @@
                 android:layout_height="wrap_content"
                 android:paddingVertical="15dp"
                 android:paddingLeft="60dp"
-                android:hint="Full name"/>
-        <ImageView
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:layout_alignParentLeft="true"
-                android:layout_centerHorizontal="true"
-                android:background="@drawable/ic_person"
-                android:layout_marginLeft="10dp"/>
+                android:hint="Enter Full name"/>
+<!--        <ImageView-->
+<!--                android:layout_width="45dp"-->
+<!--                android:layout_height="45dp"-->
+<!--                android:layout_alignParentLeft="true"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:background="@drawable/ic_person"-->
+<!--                android:layout_marginLeft="10dp"/>-->
 
 
     </RelativeLayout>
@@ -94,18 +94,12 @@
         <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Phone Number"
+                android:hint="Enter Phone Number"
                 android:paddingLeft="60dp"
                 android:paddingVertical="15dp"
                 android:id="@+id/number"
                 android:inputType="phone"/>
 
-        <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:background="@drawable/ic_phone"
-                android:layout_marginLeft="10dp"
-        />
 
     </RelativeLayout>
 
@@ -119,23 +113,14 @@
                 android:id="@+id/password1"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:hint="Password"
+                android:hint="Enter Password"
                 android:paddingVertical="15dp"
                 android:textColor="#000000"
                 android:inputType="textPassword"
                 android:paddingLeft="60dp"
 
         />
-        <ImageView
-                android:layout_width="35dp"
-                android:layout_height="35dp"
-                android:layout_marginLeft="10dp"
-                android:background="@drawable/ic_password"
-                android:layout_alignParentLeft="true"
-                android:layout_centerInParent="true"
-        >
 
-        </ImageView>
 
     </RelativeLayout>
 

@@ -28,16 +28,7 @@
     />
 
 
-    <!--    <TextView-->
-    <!--            android:layout_width="wrap_content"-->
-    <!--            android:layout_height="wrap_content"-->
-    <!--            android:text="Sign In"-->
-    <!--            android:textColor="#ffffff"-->
-    <!--            android:textStyle="bold"-->
-    <!--            android:textSize="30dp"-->
-    <!--            android:layout_marginTop="60dp"-->
-    <!--    />-->
-    <RelativeLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp">
@@ -46,22 +37,12 @@
                 android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="65dp"
-                android:hint="Email"
+                android:hint="Enter Email"
                 android:paddingVertical="15dp"
                 android:textColor="#000000"
                 android:paddingLeft="60dp"
 
         />
-        <ImageView
-                android:layout_width="35dp"
-                android:layout_height="35dp"
-                android:layout_marginLeft="10dp"
-                android:background="@drawable/ic_email"
-                android:layout_alignParentLeft="true"
-                android:layout_centerInParent="true"
-        >
-
-        </ImageView>
 
     </RelativeLayout>
     <RelativeLayout
@@ -73,23 +54,13 @@
                 android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="65dp"
-                android:hint="Password"
+                android:hint="Enter Password"
                 android:paddingVertical="15dp"
                 android:textColor="#000000"
                 android:inputType="textPassword"
                 android:paddingLeft="60dp"
 
         />
-        <ImageView
-                android:layout_width="35dp"
-                android:layout_height="35dp"
-                android:layout_marginLeft="10dp"
-                android:background="@drawable/ic_password"
-                android:layout_alignParentLeft="true"
-                android:layout_centerInParent="true"
-        >
-
-        </ImageView>
 
     </RelativeLayout>
     <Button
